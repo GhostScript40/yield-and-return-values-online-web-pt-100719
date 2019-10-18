@@ -3,7 +3,7 @@ require 'pry'
 def hello(array)
   i = 0
   while i < array.length
-    yield(array[0])
+    yield(array[2])
     i += 1
   end
 end
